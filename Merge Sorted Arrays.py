@@ -1,0 +1,6 @@
+n = int(input())
+arr1 = list(map(int, input().strip().split(" ")))
+m = int(input())
+arr2 = list(map(int, input().strip().split(" ")))
+arr = list(map(str,sorted(arr1 + arr2)))
+print(' '.join(arr))
